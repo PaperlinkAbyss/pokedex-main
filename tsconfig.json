@@ -16,10 +16,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "c/*": ["components/conatel/*"],
-      "~/*": ["components/*"],
-      "~g/*": ["pages/games/*"],
-      "~w/*": ["pages/webs/*"]
+      "~/*": ["components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

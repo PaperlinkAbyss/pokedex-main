@@ -1,4 +1,5 @@
-import { View } from '~w/pokedex'
+import { View } from 'pages'
+
 type Props = {
   stateUpdate: (argument: View) => void
   currentState: View
