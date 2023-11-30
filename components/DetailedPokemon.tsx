@@ -46,7 +46,7 @@ export default function DetailedPokemon({ selectedPokemon, setSelectedPokemon }:
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   //@ts-ignore
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [currentPokemon, setCurrentPokemon] = useState < Record<string, any>('')
+  const [currentPokemon, setCurrentPokemon] = useState<Record<string, any>>('')
 
   useLayoutEffect(() => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${selectedPokemon}`)
